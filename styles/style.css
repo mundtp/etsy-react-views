@@ -1,0 +1,42 @@
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+input[type="text"] {
+    padding: 2%;
+    border: 2px solid tomato;
+    background: #666;
+    transition: .5s all ease;
+    font-size: 24px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #222;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    background: #222;
+    color: white;
+    padding: 1%;
+    margin: 0 2%;
+}
+
+div#navBar {
+    text-align: center;
+    margin: 5%;
+}
+
+#container {
+	margin-top: 5%;
+}
+
+.snippet {
+	font-size: 24px;
+	border: 2px solid tomato;
+	padding: 3%;
+	margin: 3%;
+}
