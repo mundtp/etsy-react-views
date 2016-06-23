@@ -144,7 +144,8 @@ var NewsRouter = Backbone.Router.extend({
 		homeCollection.fetch({
 			// json is actually the default, but ... IMPORTANT!
 			// for the etsy database you'll need to set the dataType to jsonp
-			dataType: 'json',
+			// dataType: 'jsonp',
+			// processData: true,
 			// the data property is where we put the parameters that go on the end of the url
 			data: {
 				apikey: homeCollection._key
