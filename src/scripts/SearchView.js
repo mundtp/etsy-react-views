@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 
-var ArticlesView = React.createClass({
-	componentWillMount: function() {
+var SearchView = React.createClass({
+componentWillMount: function() {
 
 		// 3 context fixes
 
@@ -31,7 +31,7 @@ var ArticlesView = React.createClass({
 			})
 		})
 	},
-
+	
 	getInitialState: function() {
 		return {
 			coll: this.props.articleColl
@@ -161,4 +161,4 @@ var Article = React.createClass({
 	}
 })
 
-export default ArticlesView
+export default SearchView
